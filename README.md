@@ -1,1 +1,50 @@
-# simon-mario
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Garcia Mario Gomez</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <!-- Fuente Open Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="../imagenes/Logo-Delicias.png">
+        </div>
+        <nav>
+            <ul>
+                <li>inicio</li>
+                <li>sobre mí</li>
+                <li>recetas</li>
+                <li>contacto</li>
+                <li>otras cosas</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img src="../imagenes/isagil.png"></img>
+
+        <img src="../imagenes/Pasta.jpg"><img>
+        
+    </main>
+
+    <footer>
+        <ul>
+            <li>facebook</li>
+            <li>twiter</li>
+            <li>instagram</li>
+            <li>pinterest</li>
+            <li>email</li>
+            <li>rss</li>
+        </ul>
+    </footer>
+
+</body>
+</html>
