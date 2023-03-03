@@ -155,3 +155,33 @@ footer ul li{
     padding: 10px;  
 
 }
+
+
+
+
+/* ESTILOS TODAS LAS RECETAS */
+.receta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+}
+
+.receta h1 {
+	font-size: 36px;
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+	background-color: #7ABA96;
+    color: rgb(242, 242, 242);
+}
+
+.receta ul, .receta ol {
+	margin: 0;
+	padding-left: 20px;
+}
+
+h2 {
+	color: #7ABA96;
+    text-decoration: none;
+}
+
