@@ -31,7 +31,7 @@
     </header>
 
     <main>
-        <form action="form.php" method="get">
+        <form action="#" method="get">
             <ul>
               <li>
                 <label for="name">Nombre:</label>
@@ -302,6 +302,16 @@
 
               <li>
                 <input type="reset" value="Borrar datos introducidos">
+              </li>
+
+              <li>
+                <h2>¿Qué tipo de notificaciones deseas recibir de Delicias Kitchen?</h2>
+                <input type="checkbox" id="recetas" name="notificaciones[]" value="recetas">
+                <label for="recetas">Recetas nuevas</label><br>
+                <input type="checkbox" id="promociones" name="notificaciones[]" value="promociones">
+                <label for="promociones">Promociones especiales</label><br>
+                <input type="checkbox" id="eventos" name="notificaciones[]" value="eventos">
+                <label for="eventos">No deseo recibir notificaciones</label><br><br>
               </li>
               <li>
                 <input type="submit" value="Enviar">
