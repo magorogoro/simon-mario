@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="receta.xslt"?>
+
+<recetas>
+  <receta>
+    <titulo>Pasta con coliflor</titulo>
+    <tiempo>1 hora</tiempo>
+    <dificultad>Media</dificultad>
+    <enlace>pasta_coliflor.html</enlace>
+  </receta>
+  <receta>
+    <titulo>Tacos de pescado</titulo>
+    <tiempo>30 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>tacos_pescado.html</enlace>
+  </receta>
+  <receta>
+    <titulo>Sopa de tomate</titulo>
+    <tiempo>45 minutos</tiempo>
+    <dificultad>Media</dificultad>
+    <enlace>sopa_tomate.html</enlace>
+  </receta>
+</recetas>

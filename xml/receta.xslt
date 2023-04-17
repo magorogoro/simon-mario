@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:template match="/">
+    <html>
+      <head>
+        <title>Recetas</title>
+        <style>
+          table {
+            border-collapse: collapse;
+            width: 100%;
+          }
+          th, td {
+            text-align: left;
+            padding: 8px;
+          }
+          th {
+            background-color: #4CAF50;
+            color: white;
+          }
+          tr:nth-child(even) {
+            background-color: #f2f2f2;
+          }
+          a {
+            color: blue;
+            text-decoration: none;
+          }
+        </style>
+      </head>
+      <body>
+        <h1>Recetas</h1>
+        <table>
+          <tr>
+            <th>Título</th>
+            <th>Tiempo</th>
+            <th>Dificultad</th>
+            <th>Enlace</th>
+          </tr>
+          <xsl:for-each select="recetas/receta">
+            <tr>
+              <td><xsl:value-of select="titulo"/></td>
+              <td><xsl:value-of select="tiempo"/></td>
+              <td><xsl:value-of select="dificultad"/></td>
+              <td><a href="{enlace}"><xsl:value-of select="enlace"/></a></td>
+            </tr>
+          </xsl:for-each>
+        </table>
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>
+
