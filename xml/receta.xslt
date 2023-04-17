@@ -5,6 +5,9 @@
       <head>
         <title>Recetas</title>
         <style>
+          *{
+            font-family: 'Open Sans', sans-serif;
+          }        
           table {
             border-collapse: collapse;
             width: 100%;
@@ -24,6 +27,7 @@
             color: blue;
             text-decoration: none;
           }
+          
         </style>
       </head>
       <body>
@@ -48,4 +52,3 @@
     </html>
   </xsl:template>
 </xsl:stylesheet>
-
