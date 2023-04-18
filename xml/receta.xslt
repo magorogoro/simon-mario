@@ -27,6 +27,13 @@
             color: blue;
             text-decoration: none;
           }
+
+          tr:hover {
+            background:#007a06;
+            color: #ffffff;
+            cursor: pointer;
+          
+          }
           
         </style>
       </head>
