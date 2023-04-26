@@ -6,11 +6,15 @@
         <title>Recetas</title>
         <style>
          body{
-          background:red;
+          background:white;
+          font-family: sans-serif;
          }
           th{
-            background: orange;
+            background: green;
             color: white;
+          }
+          tr:hover{
+            background: green;
           }
         </style>
       </head>
