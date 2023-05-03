@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="receta.xslt"?>
+
+<recetas>
+  <receta>
+    <titulo>Ensalada de pollo y manzana</titulo>
+    <tiempo>30 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>ensalada_pollo_manzana.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Arroz con camarones</titulo>
+    <tiempo>40 minutos</tiempo>
+    <dificultad>Media</dificultad>
+    <enlace>arroz_camarones.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Sopa de calabaza</titulo>
+    <tiempo>45 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>sopa_calabaza.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Ensalada de espinacas y fresas</titulo>
+    <tiempo>20 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>ensalada_espinacas_fresas.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Pastel de carne</titulo>
+    <tiempo>1 hora</tiempo>
+    <dificultad>Media</dificultad>
+    <enlace>pastel_carne.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Ceviche de camarón</titulo>
+    <tiempo>30 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>ceviche_camarones.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Ensalada de pasta</titulo>
+    <tiempo>30 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>ensalada_pasta.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Pollo al horno</titulo>
+    <tiempo>1 hora</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>pollo_horno.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Spaghetti carbonara</titulo>
+    <tiempo>20 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>spaghetti_carbonara.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Filete de salmón</titulo>
+    <tiempo>30 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>filete_salmon.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Tacos al pastor</titulo>
+    <tiempo>1 hora</tiempo>
+    <dificultad>Media</dificultad>
+    <enlace>tacos_pastor.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Pollo con arroz</titulo>
+    <tiempo>40 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>pollo_arroz.html</enlace>
+  </receta>
+
+  <receta>
+    <titulo>Pizza Margherita</titulo>
+    <tiempo>40 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>pizza_margherita.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Ensalada César</titulo>
+    <tiempo>15 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>ensalada_cesar.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Sopa de pollo</titulo>
+    <tiempo>1 hora</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>sopa_pollo.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Lasagna de carne</titulo>
+    <tiempo>2 horas</tiempo>
+    <dificultad>Media</dificultad>
+    <enlace>lasagna_carne.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Enchiladas</titulo>
+    <tiempo>1 hora</tiempo>
+    <dificultad>Media</dificultad>
+    <enlace>enchiladas.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Torta de chocolate</titulo>
+    <tiempo>1 hora</tiempo>
+    <dificultad>Media</dificultad>
+    <enlace>torta_chocolate.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Chilaquiles</titulo>
+    <tiempo>30 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>chilaquiles.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Pollo a la parrilla</titulo>
+    <tiempo>40 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>pollo_parrilla.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Paella de mariscos</titulo>
+    <tiempo>1 hora 30 minutos</tiempo>
+    <dificultad>Media</dificultad>
+    <enlace>paella_mariscos.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Ensalada de aguacate y camarón</titulo>
+    <tiempo>20 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>ensalada_aguacate_camarón.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Arroz con leche</titulo>
+    <tiempo>1 hora</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>arroz_leche.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Wrap de pollo</titulo>
+    <tiempo>30 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>wrap_pollo.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Lasaña de berenjena</titulo>
+    <tiempo>1 hora 30 minutos</tiempo>
+    <dificultad>Media</dificultad>
+    <enlace>lasana_berenjena.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Camarones al ajillo</titulo>
+    <tiempo>25 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>camarones_ajillo.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Ensalada de quinoa</titulo>
+    <tiempo>25 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>ensalada_quinoa.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Estofado de carne</titulo>
+    <tiempo>2 horas</tiempo>
+    <dificultad>Media</dificultad>
+    <enlace>estofado_carne.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Tortilla de patatas</titulo>
+    <tiempo>45 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>tortilla_patatas.html</enlace>
+  </receta>
+  
+  <receta>
+    <titulo>Ensalada César</titulo>
+    <tiempo>20 minutos</tiempo>
+    <dificultad>Fácil</dificultad>
+    <enlace>ensalada_cesar.html</enlace>
+  </receta>  
+  
+</recetas>

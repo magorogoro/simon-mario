@@ -8,13 +8,23 @@
 			</head>
 			<body>
 				<h1> :-) LISTA DE CIUDADES  </h1>
-		 		<xsl:apply-templates select="//ciudad" >
-          			<xsl:sort select="nombre" order="descending" />
+		 		<xsl:apply-templates select="ciudades/ciudad" >
+          			<xsl:sort select="habitantes" order="descending" />
 				</xsl:apply-templates>
 			</body>
 		</html>
 	</xsl:template>
-	<xsl:template match="ciudad">
-		 <h3> <xsl:value-of select="nombre" /> </h3>
+
+	<xsl:template match="//ciudad">
+		 <h1> <xsl:value-of select="habitantes" /> </h1>
+		 		 <p> <xsl:value-of select="nombre" /> </p>
+
 	</xsl:template>
+
+	<xsl:template match="//ciudad">
+		 <h1> <xsl:value-of select="habitantes" /> </h1>
+		 		 <p> <xsl:value-of select="nombre" /> </p>
+
+	</xsl:template>v
+	
 </xsl:stylesheet>

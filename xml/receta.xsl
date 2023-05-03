@@ -4,43 +4,21 @@
     <html>
       <head>
         <title>Recetas</title>
-        <style>
-         body{
-          background:white;
-          font-family: sans-serif;
-         }
-          th{
-            background: green;
-            color: white;
-          }
-          tr:hover{
-            background: green;
-          }
-        </style>
       </head>
       <body>
         <h1>Recetas</h1>
-        <table>
-          <tr> 
-            <th>Titulo</th>
-            <th>Tiempo</th>
-            <th>Dificultad</th>
-            <th>Enlace</th>
-          </tr>
-          <xsl:apply-templates select="recetas/receta">
-            <xsl:sort select="titulo" order="ascending" />
-          </xsl:apply-templates>
-        </table>
+   
+          <xsl:apply-templates select="recetas/receta" />
       </body>
     </html>
   </xsl:template>
-
+  
   <xsl:template match="receta">
-    <tr>
-      <td><xsl:value-of select="titulo"/></td>
-      <td><xsl:value-of select="tiempo"/></td>
-      <td><xsl:value-of select="dificultad"/></td>
-      <td><a href="{enlace}">Ver receta</a></td>
-    </tr>
+    <xsl:if test="tiempo = '30 minutos'">
+      <ul>
+        <li><xsl:value-of select="titulo"/></li>
+      </ul>
+    </xsl:if>
   </xsl:template>
+  
 </xsl:stylesheet>
