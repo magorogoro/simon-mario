@@ -52,7 +52,7 @@
               <td><xsl:value-of select="titulo"/></td>
               <td><xsl:value-of select="tiempo"/></td>
               <td><xsl:value-of select="dificultad"/></td>
-              <td><a href="{receta/pasta_coliflor.html}"><xsl:value-of select="enlace"/></a></td>
+              <td><a href="{../receta/pasta_coliflor.html}"><xsl:value-of select="enlace"/></a></td>
             </tr>
           </xsl:for-each>
         </table>
