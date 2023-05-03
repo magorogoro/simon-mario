@@ -38,7 +38,7 @@
         </style>
       </head>
       <body>
-        <h1>Recetas</h1>
+        <h1>Recetass</h1>
         <table>
           <tr>
             <th>Título</th>
