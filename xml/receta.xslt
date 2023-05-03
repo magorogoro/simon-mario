@@ -39,6 +39,7 @@
       </head>
       <body>
         <h1>Recetass</h1>
+        <p>tabla</p>
         <table>
           <tr>
             <th>Título</th>
